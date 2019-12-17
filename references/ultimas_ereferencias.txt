@@ -17,3 +17,24 @@ https://www.eduardopires.net.br/2016/03/ddd-bounded-context/
 https://martinfowler.com/eaaDev/EventSourcing.html
 
 https://docs.particular.net/tutorials/nservicebus-step-by-step/2-sending-a-command/
+
+
+C Sharp Basics
+
+Collections - Generic:
+
+HashSet<T> Classe
+HashSet<int> evenNumbers = new HashSet<int>();
+
+
+Tipos Thread-safe:
+
+ImmutableList<T> Classe
+public const ImmutableList<string> ListaDeTiposValidosParaMarcaNominativa = ImmutableList<string>(new string[] { "N", "M", "T" });
+
+ConcurrentBag<T> Class
+ConcurrentBag<int> cb = new ConcurrentBag<int>();
+
+Some of the concurrent collection types use lightweight synchronization mechanisms such as SpinLock, SpinWait, SemaphoreSlim, and CountdownEvent. These synchronization types typically use busy spinning (spinning vs. blocking) for brief periods before they put the thread into a true Wait state. Spinning is far less computationally expensive than waiting, which involves an expensive kernel transition.
+
+The ConcurrentQueue<T> and ConcurrentStack<T> classes do not use locks at all. Instead, they rely on Interlocked operations to achieve thread-safety.
