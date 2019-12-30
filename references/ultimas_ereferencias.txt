@@ -1,10 +1,14 @@
-https://github.com/MikeWasson/ServiceFabric-AspNetCore-Sample
+tdc2018-demo-metricas-build
+
+https://docs.particular.net/tutorials/nservicebus-step-by-step/2-sending-a-command/
 
 https://www.technical-recipes.com/2018/using-dependency-injection-in-web-api-applications-using-unity/
 
 https://enterprisecraftsmanship.com/posts/entity-vs-value-object-the-ultimate-list-of-differences/
 
 https://enterprisecraftsmanship.com/posts/value-object-better-implementation/
+
+https://github.com/MikeWasson/ServiceFabric-AspNetCore-Sample
 
 https://medium.com/@programadriano/introdu%C3%A7%C3%A3o-ao-rabbitmq-4bfba460ad03
 
@@ -16,7 +20,7 @@ https://www.eduardopires.net.br/2016/03/ddd-bounded-context/
 
 https://martinfowler.com/eaaDev/EventSourcing.html
 
-https://docs.particular.net/tutorials/nservicebus-step-by-step/2-sending-a-command/
+
 
 
 ## C Sharp Basics
